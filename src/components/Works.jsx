@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github, link } from "../assets";
 import { SectionWrapper } from "./hoc";
-import { projects, robotic_projects } from "../constants"; // Make sure to import your project data correctly
+import { projects, robotic_projects, ai_projects } from "../constants"; // Make sure to import your project data correctly
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, project_link }) => {
@@ -41,8 +41,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          {description && description.map((point, dIndex) => (
-            <p key={`point-${index}-${dIndex}`} className="mt-2 text-secondary text-[14px]">
+          {description && description.map((point, dIndex, cIndex) => (
+            <p key={`point-${index}-${dIndex}-${cIndex}`} className="mt-2 text-secondary text-[14px]">
               {point}
             </p>
           ))}
@@ -103,6 +103,30 @@ const Works = () => {
           <ProjectCard
             key={`robotic-project-${dIndex}`}
             index={dIndex}
+            {...project}
+          />
+        ))}
+      </div>
+
+      <div className="mt-10"></div>
+
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>My Work</p>
+        <h2 className={styles.sectionHeadText}>AI/ML Projects</h2>
+      </motion.div>
+      <div className="w-full flex">
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        >
+          Following AI/ML projects showcase my skills and experience in the field of Artifical Intelligence and Machine Learning. Each project is briefly described with links to code repositories and details about their functionality.These projects serve as a testament to my capacity to design and implement intelligent systems, leveraging cutting-edge algorithms and techniques.
+        </motion.p>
+      </div>
+      <div className="mt-10 flex flex-wrap gap-7">
+        {ai_projects.map((project, cIndex) => (
+          <ProjectCard
+            key={`ai-project-${cIndex}`}
+            index={cIndex}
             {...project}
           />
         ))}

@@ -41,7 +41,10 @@ import {
     vaccum,
     rover,
     stick,
-    betterstick
+    betterstick,
+    gesture,
+    canny,
+    traffic
   } from "../assets";
   
   export const navLinks = [
@@ -108,20 +111,12 @@ import {
       icon: nodejs,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
     {
       name: "c++",
@@ -135,11 +130,6 @@ import {
       name: "python",
       icon: python,
     },
-    {
-      name: "tensorflow",
-      icon: tensorflow,
-    },
-
   ];
   
   const experiences = [
@@ -195,33 +185,6 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
@@ -433,7 +396,95 @@ import {
       project_link: "https://www.linkedin.com/posts/nikunjpatel11_arduinoproject-activity-6969968517647396864-GnRo/?utm_source=share&utm_medium=member_desktop",
     },
   ];
+
+  const ai_projects = [
+    {
+      name: "Canny Edge Detector",
+      description: [  
+        "Engineered using Python, NumPy, and Matplotlib to detect cracks that can lead to structural failures in buildings and bridges.",
+        "Employs Gaussian blurring, gradient computation, non-maximum suppression, double thresholding, and edge tracking by hysteresis for robust edge detection.",
+        "Achieves an impressive 90% accuracy in identifying structural cracks in buildings and bridges.",
+        "Seamlessly adapts to various lighting conditions and crack types, offering a versatile solution for civil engineers and safety inspectors.",
+      ],
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Matplotlib",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Numpy",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: canny,
+      source_code_link: "https://github.com/nrrpatel/CannyEdgeDetection",
+      project_link: "https://github.com/nrrpatel/CannyEdgeDetection",
+    },
+    {
+      name: "Car Counter",
+      description: [  // Change 'thing' to 'description'
+        "Developed a real-time Car Counting System to monitor traffic flow and congestion, enhancing traffic management and surveillance capabilities.",
+        "Implemented OpenCV for precise and efficient bounding box detection around vehicles in video frames.",
+        "Achieved a detection accuracy of over 95% using YOLO object detection.",
+        "Successfully counted and tracked an average of 500 vehicles per hour in real-world traffic scenarios.",
+      ],
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Object detection",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenCV",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "YOLO",
+          color: "red-text-gradient",
+        },
+      ],
+      image: traffic,
+      source_code_link: "https://github.com/nrrpatel/OpenCV-and-YOLO/blob/master/Car-counter/Car-counter.py",
+      project_link: "https://github.com/nrrpatel/OpenCV-and-YOLO/blob/master/Car-counter/Car-counter.py",
+    },
+    {
+      name: "Gesture Volume Control",
+      description: [  // Change 'thing' to 'description'
+        "Innovated a hand gesture-based volume control system using Python, OpenCV, mediapipe and the PyCaw library.",
+        "Executed live hand tracking using mediapipe to identify and detect fingertip positions with an accuracy of 75%.",
+        "Measured the distance of the index and thumb fingertips to adjust the master volume using numpy and pycaw.",
+      ],
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OpenCV",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mediapipe",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "PyCaw",
+          color: "red-text-gradient",
+        },
+      ],
+      image: gesture,
+      source_code_link: "https://github.com/nrrpatel/OpenCV-and-YOLO/blob/master/HandTracking/VolumeHandControlAdvanced.py",
+      project_link: "https://www.linkedin.com/posts/nikunjpatel11_share-project-computervision-activity-7048625195577733121-OAKo?utm_source=share&utm_medium=member_desktop",
+    },
+  ];
   
   
   
-  export { services, technologies, experiences, testimonials, projects, robotic_projects};
+  export { services, technologies, experiences, projects, robotic_projects, ai_projects};

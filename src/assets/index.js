@@ -28,6 +28,10 @@ import rover from '../constants/roverbot.png'
 import stick from '../constants/stick.jpg'
 import betterstick from '../constants/betterstick.png'
 
+import gesture from '../constants/gesture.png'
+import canny from '../constants/canny.jpg'
+import traffic from '../constants/traffic.png'
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -99,7 +103,11 @@ export {
   vaccum,
   rover,
   stick,
-  betterstick
+  betterstick,
+  gesture,
+  canny,
+  traffic
+
 
 };
 

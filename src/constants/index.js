@@ -122,8 +122,7 @@ import {
       description: [
         "Using an STM32 I created a multi-threaded operating system supporting concurrent thread execution",
         "Implemented both cooperative and preemptive multitasking for versatile thread management",
-        "Developed efficient thread initialization and stack management",
-        "Added a real-time capabilities such as thread argument passing and timeouts",
+        "Added a real-time capabilities such as thread argument passing and timeouts. Also efficient thread initialization and stack management",
         "Implemented Earliest Deadline First (EDF) scheduling for optimized task execution", ],
       tags: [
         {

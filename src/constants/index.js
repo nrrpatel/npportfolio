@@ -1,37 +1,13 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    react,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    
     lola,
     bluemind,
     warg,
     stratum,
-    c,
-    aws,
-    python,
-    tensorflow,
+    web,
+    mobile,
+    backend,
+    creator,
     link,
     jarvis,
     moneyflow,
@@ -41,7 +17,6 @@ import {
     vaccum,
     rover,
     stick,
-    betterstick,
     gesture,
     canny,
     traffic
@@ -55,6 +30,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -78,57 +57,6 @@ import {
     {
       title: "Content Creator",
       icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: react,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "c++",
-      icon: c,
-    },
-    {
-      name: "aws",
-      icon: aws,
-    },
-    {
-      name: "python",
-      icon: python,
     },
   ];
   
@@ -266,55 +194,55 @@ import {
       source_code_link: "https://github.com/nrrpatel/MoneyFlow1",
       project_link: "https://moneyflows.netlify.app/",
     },
-    {
-      name: "AI Chatbot",
-      description: [
-        "Made with Discord.js and Node.js and integrated OpenAI API to create an intelligent GPT-3 discord chat bot",
-        "Enhanced GPT-3 chat bot using OpenAI Playground to reluctantly answer questions with sarcastic responses",
-        "Trained with more than 75+ scenarios allowing the bot to regularly configure itself to avoid repetitive responses", ],
-      tags: [
-        {
-          name: "OpenAI",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Node.js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Discord.js",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: chatbot,
-      source_code_link: "https://www.youtube.com/watch?v=93RhkUudtEs",
-      project_link: "https://www.youtube.com/watch?v=93RhkUudtEs",
-    },
-    {
-      name: "Weather App",
-      description: [
-        "The Weather App provides the user with the temperature, description of the weather, humidity and windspeed of over 10,000 cities",
-        "Dispatched weather information with 97% accuracy using OpenWeather API",
-        "Integrated Geolocation and OpenCage Geocoding API to provide the weather info based on the user’s current location as the app is launched",
-        "Implemented React, HTML and CSS to display content and extend functionally for a user-friendly interface. Generates images related to user input with the use of a Unsplash API", ],
-      tags: [
-        {
-          name: "HTML",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Javascript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: weather,
-      source_code_link: "https://github.com/nrrpatel/Nikunj-s-Weather-App",
-      project_link: "https://nikunjpatelweather.netlify.app/",
-    },
+    // {
+    //   name: "AI Chatbot",
+    //   description: [
+    //     "Made with Discord.js and Node.js and integrated OpenAI API to create an intelligent GPT-3 discord chat bot",
+    //     "Enhanced GPT-3 chat bot using OpenAI Playground to reluctantly answer questions with sarcastic responses",
+    //     "Trained with more than 75+ scenarios allowing the bot to regularly configure itself to avoid repetitive responses", ],
+    //   tags: [
+    //     {
+    //       name: "OpenAI",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Node.js",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Discord.js",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: chatbot,
+    //   source_code_link: "https://www.youtube.com/watch?v=93RhkUudtEs",
+    //   project_link: "https://www.youtube.com/watch?v=93RhkUudtEs",
+    // },
+    // {
+    //   name: "Weather App",
+    //   description: [
+    //     "The Weather App provides the user with the temperature, description of the weather, humidity and windspeed of over 10,000 cities",
+    //     "Dispatched weather information with 97% accuracy using OpenWeather API",
+    //     "Integrated Geolocation and OpenCage Geocoding API to provide the weather info based on the user’s current location as the app is launched",
+    //     "Implemented React, HTML and CSS to display content and extend functionally for a user-friendly interface. Generates images related to user input with the use of a Unsplash API", ],
+    //   tags: [
+    //     {
+    //       name: "HTML",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "CSS",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Javascript",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: weather,
+    //   source_code_link: "https://github.com/nrrpatel/Nikunj-s-Weather-App",
+    //   project_link: "https://nikunjpatelweather.netlify.app/",
+    // },
   ];
 
   const robotic_projects = [
@@ -404,7 +332,6 @@ import {
         "Engineered using Python, NumPy, and Matplotlib to detect cracks that can lead to structural failures in buildings and bridges.",
         "Employs Gaussian blurring, gradient computation, non-maximum suppression, double thresholding, and edge tracking by hysteresis for robust edge detection.",
         "Achieves an impressive 90% accuracy in identifying structural cracks in buildings and bridges.",
-        "Seamlessly adapts to various lighting conditions and crack types, offering a versatile solution for civil engineers and safety inspectors.",
       ],
       tags: [
         {
@@ -487,4 +414,4 @@ import {
   
   
   
-  export { services, technologies, experiences, projects, robotic_projects, ai_projects};
+  export { services, experiences, projects, robotic_projects, ai_projects};

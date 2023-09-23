@@ -1,21 +1,16 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+
 import lola from '../constants/lola.png'
 import bluemind from '../constants/bluemind.png'
 import stratum from '../constants/stratum.png'
 import warg from '../constants/warg.jpg'
-import c from '../constants/c-logo.png'
-import aws from '../constants/aws.png'
-import python from '../constants/python.png'
-import tensorflow from '../constants/tensorflow.png'
-import react from '../constants/react.png'
 import link from '../constants/logo.png'
+import logo from '../assets/logo.svg'
+import close from '../assets/close.svg'
+import menu from '../assets/menu.svg'
+import github from '../assets/github.png'
+import mobile from '../assets/mobile.png'
+import backend from '../assets/backend.png'
+import creator from '../assets/creator.png'
 
 import jarvis from '../constants/jarvis.png'
 import moneyflow from '../constants/moneyflow.png'
@@ -31,69 +26,23 @@ import betterstick from '../constants/betterstick.png'
 import gesture from '../constants/gesture.png'
 import canny from '../constants/canny.jpg'
 import traffic from '../constants/traffic.png'
+import web from '../assets/web.png'
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import { ImageLoader } from "three";
 
 export {
   logo,
+  close,
+  menu,
+  github,
+  web,
+  mobile,
   backend,
   creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   lola,
   bluemind,
   stratum,
   warg,
-  c,
-  aws,
-  python,
-  tensorflow,
-  react,
   link,
   jarvis,
   moneyflow,
@@ -107,7 +56,5 @@ export {
   gesture,
   canny,
   traffic
-
-
 };
 

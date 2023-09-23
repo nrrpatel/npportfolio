@@ -193,30 +193,30 @@ import {
       source_code_link: "https://github.com/nrrpatel/MoneyFlow1",
       project_link: "https://moneyflows.netlify.app/",
     },
-    {
-      name: "AI Chatbot",
-      description: [
-        "Made with Discord.js and Node.js and integrated OpenAI API to create an intelligent GPT-3 discord chat bot",
-        "Enhanced GPT-3 chat bot using OpenAI Playground to reluctantly answer questions with sarcastic responses",
-        "Trained with more than 75+ scenarios allowing the bot to regularly configure itself to avoid repetitive responses", ],
-      tags: [
-        {
-          name: "OpenAI",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Node.js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Discord.js",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: chatbot,
-      source_code_link: "https://www.youtube.com/watch?v=93RhkUudtEs",
-      project_link: "https://www.youtube.com/watch?v=93RhkUudtEs",
-    },
+    // {
+    //   name: "AI Chatbot",
+    //   description: [
+    //     "Made with Discord.js and Node.js and integrated OpenAI API to create an intelligent GPT-3 discord chat bot",
+    //     "Enhanced GPT-3 chat bot using OpenAI Playground to reluctantly answer questions with sarcastic responses",
+    //     "Trained with more than 75+ scenarios allowing the bot to regularly configure itself to avoid repetitive responses", ],
+    //   tags: [
+    //     {
+    //       name: "OpenAI",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Node.js",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Discord.js",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: chatbot,
+    //   source_code_link: "https://www.youtube.com/watch?v=93RhkUudtEs",
+    //   project_link: "https://www.youtube.com/watch?v=93RhkUudtEs",
+    // },
     // {
     //   name: "Weather App",
     //   description: [

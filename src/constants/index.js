@@ -194,37 +194,36 @@ import {
       source_code_link: "https://github.com/nrrpatel/MoneyFlow1",
       project_link: "https://moneyflows.netlify.app/",
     },
-    // {
-    //   name: "AI Chatbot",
-    //   description: [
-    //     "Made with Discord.js and Node.js and integrated OpenAI API to create an intelligent GPT-3 discord chat bot",
-    //     "Enhanced GPT-3 chat bot using OpenAI Playground to reluctantly answer questions with sarcastic responses",
-    //     "Trained with more than 75+ scenarios allowing the bot to regularly configure itself to avoid repetitive responses", ],
-    //   tags: [
-    //     {
-    //       name: "OpenAI",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "Node.js",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "Discord.js",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: chatbot,
-    //   source_code_link: "https://www.youtube.com/watch?v=93RhkUudtEs",
-    //   project_link: "https://www.youtube.com/watch?v=93RhkUudtEs",
-    // },
+    {
+      name: "AI Chatbot",
+      description: [
+        "Made with Discord.js and Node.js and integrated OpenAI API to create an intelligent GPT-3 discord chat bot",
+        "Enhanced GPT-3 chat bot using OpenAI Playground to reluctantly answer questions with sarcastic responses",
+        "Trained with more than 75+ scenarios allowing the bot to regularly configure itself to avoid repetitive responses", ],
+      tags: [
+        {
+          name: "OpenAI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Discord.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: chatbot,
+      source_code_link: "https://www.youtube.com/watch?v=93RhkUudtEs",
+      project_link: "https://www.youtube.com/watch?v=93RhkUudtEs",
+    },
     // {
     //   name: "Weather App",
     //   description: [
-    //     "The Weather App provides the user with the temperature, description of the weather, humidity and windspeed of over 10,000 cities",
-    //     "Dispatched weather information with 97% accuracy using OpenWeather API",
+    //     "The Weather App provides the user with the temperature, description of the weather, humidity and windspeed of over 10,000 cities with an accuracy of 97%",
     //     "Integrated Geolocation and OpenCage Geocoding API to provide the weather info based on the user’s current location as the app is launched",
-    //     "Implemented React, HTML and CSS to display content and extend functionally for a user-friendly interface. Generates images related to user input with the use of a Unsplash API", ],
+    //     "Implemented React, HTML and CSS to display content  for a user-friendly interface. Generates images related to user input with the use of a Unsplash API", ],
     //   tags: [
     //     {
     //       name: "HTML",

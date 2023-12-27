@@ -106,7 +106,7 @@ import {
       company_name: "Stratum AI",
       icon: stratum,
       iconBg: "#111",
-      date: "Sep 2023 - Present",
+      date: "Sep 2023 - Dec 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

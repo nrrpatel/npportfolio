@@ -2,6 +2,9 @@
 import lola from '../constants/lola.png'
 import bluemind from '../constants/bluemind.png'
 import stratum from '../constants/stratum.png'
+import wrmth from '../constants/wrmth.png'
+import vividseats from '../constants/vividseats.png'
+import thescore from '../constants/thescore.png'
 import warg from '../constants/warg.jpg'
 import link from '../constants/logo.png'
 import logo from '../assets/logo.svg'
@@ -42,6 +45,9 @@ export {
   lola,
   bluemind,
   stratum,
+  wrmth,
+  vividseats,
+  thescore,
   warg,
   link,
   jarvis,

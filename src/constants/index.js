@@ -75,7 +75,7 @@ import {
       ],
     },
     {
-      title: "Front End Developer Intern",
+      title: "Software Engineer Intern",
       company_name: "Bluemind.app",
       icon: bluemind,
       iconBg: "#E6DEDD",
@@ -102,7 +102,7 @@ import {
       ],
     },
     {
-      title: "Front-end Developer",
+      title: "Software Engineer Intern",
       company_name: "Stratum AI",
       icon: stratum,
       iconBg: "#111",
@@ -112,6 +112,37 @@ import {
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Software Engineer Intern",
+      company_name: "Wrmth",
+      icon: stratum,
+      iconBg: "#111",
+      date: "May 2024 - Aug 2024",
+      points: [
+        "Built a user management system for real-time control and monitoring of 20+ IoT devices using C, React, and AWS, enabling restaurant and resort staff to manage devices based on guest occupancy.",
+        "Developed an auto-shutoff feature and intuitive UI for IoT devices, reducing power consumption by 20 minutes per device and allowing seamless control for over 500 customers",
+        "Integrated AWS IoT Core into 400+ IoT devices for robust Wi-Fi/Bluetooth connectivity and faster data transfer",      ],
+    },
+    {
+      title: "Software Engineer Intern",
+      company_name: "Vivid Seats",
+      icon: stratum,
+      iconBg: "#111",
+      date: "Jan 2025 - April 2025",
+      points: [
+        "Building an ERP system with SkyBox to serve 10,000+ professional sellers to boost sales and profit margin, and automate operations.",
+      ],
+    },
+    {
+      title: "Software Engineer Intern",
+      company_name: "theScore",
+      icon: stratum,
+      iconBg: "#111",
+      date: "May 2025 - Aug 2025",
+      points: [
+        "Part of the Wagering Team helping maintain the web application.",
       ],
     },
   ];

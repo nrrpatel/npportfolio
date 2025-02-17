@@ -4,6 +4,9 @@ import {
     bluemind,
     warg,
     stratum,
+    wrmth,
+    vividseats,
+    thescore,
     web,
     mobile,
     backend,
@@ -117,8 +120,8 @@ import {
     {
       title: "Software Engineer Intern",
       company_name: "Wrmth",
-      icon: stratum,
-      iconBg: "#111",
+      icon: wrmth,
+      iconBg: "#fff",
       date: "May 2024 - Aug 2024",
       points: [
         "Built a user management system for real-time control and monitoring of 20+ IoT devices using C, React, and AWS, enabling restaurant and resort staff to manage devices based on guest occupancy.",
@@ -128,8 +131,8 @@ import {
     {
       title: "Software Engineer Intern",
       company_name: "Vivid Seats",
-      icon: stratum,
-      iconBg: "#111",
+      icon: vividseats,
+      iconBg: "#fff",
       date: "Jan 2025 - April 2025",
       points: [
         "Building an ERP system with SkyBox to serve 10,000+ professional sellers to boost sales and profit margin, and automate operations.",
@@ -138,8 +141,8 @@ import {
     {
       title: "Software Engineer Intern",
       company_name: "theScore",
-      icon: stratum,
-      iconBg: "#111",
+      icon: thescore,
+      iconBg: "#fff",
       date: "May 2025 - Aug 2025",
       points: [
         "Part of the Wagering Team helping maintain the web application.",

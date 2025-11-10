@@ -135,12 +135,9 @@ import {
       iconBg: "#fff",
       date: "Jan 2025 - April 2025",
       points: [
-        "Engineered an inventory management dashboard in React and TypeScript, creating intuitive flows for bulk ticket
-uploads that cut seller processing time by 30%.",
-        "Built a high-performance React interface for bulk actions (Merge, Split, Tags) capable of handling 100K+ items in
-client-side state, reducing manual effort by 30%.",
-        "Implemented real-time UI updates using WebSockets to display live ticket upload status, streamlining seller
-workflows and driving a 15% increase in active engagement.",
+        "Engineered an inventory management dashboard in React and TypeScript, creating intuitive flows for bulk ticket uploads that cut seller processing time by 30%.",
+        "Built a high-performance React interface for bulk actions (Merge, Split, Tags) capable of handling 100K+ items in client-side state, reducing manual effort by 30%.",
+        "Implemented real-time UI updates using WebSockets to display live ticket upload status, streamlining seller workflows and driving a 15% increase in active engagement.",
       ],
     },
     {
@@ -150,12 +147,9 @@ workflows and driving a 15% increase in active engagement.",
       iconBg: "#fff",
       date: "May 2025 - Aug 2025",
       points: [
-        "Reduced initial page load latency by 200ms for 1M+ users by developing a betting UI in React and TypeScript,
-featuring incremental GraphQL data loading.",
-        "Engineered a one-tap live betting interface using React and TypeScript, which streamlined user interactions and
-directly increased monthly live bets by over 3k.",
-        "Accelerated frontend feature development by 25% by rearchitecting 90% of standard UI components in React and
-TypeScript into a reusable Storybook design system.",
+        "Reduced initial page load latency by 200ms for 1M+ users by developing a betting UI in React and TypeScript, featuring incremental GraphQL data loading.",
+        "Engineered a one-tap live betting interface using React and TypeScript, which streamlined user interactions and directly increased monthly live bets by over 3k.",
+        "Accelerated frontend feature development by 25% by rearchitecting 90% of standard UI components in React and TypeScript into a reusable Storybook design system.",
       ],
     },
   ];
